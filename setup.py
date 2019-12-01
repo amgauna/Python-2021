@@ -5,6 +5,9 @@ $ pip install flake8
 $ pip-review --auto
 $ make install-pip-requirements 
 $ pip install --upgrade --force-reinstall -r requirements.txt
+$ pip freeze > requirements.txt
+$ cat requirements.txt
+env_2)$ pip install --user --requirement requirements.txt
 
 
 
