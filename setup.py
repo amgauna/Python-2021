@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 
+import setuptools
+import time
+import pytest
+
+from pytest import ExitCode
+from selenium import webdriver
+from pages import *
+from locators import *
+from selenium.webdriver.common.by import By
 from distutils.core import setup
 
 setup(name='Distutils',
@@ -10,8 +19,6 @@ setup(name='Distutils',
       url='https://www.python.org/sigs/distutils-sig/',
       packages=['distutils', 'distutils.command'],
      )
-
-import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -34,7 +41,6 @@ setuptools.setup(
     python_requires='>=3.7',
 )
 
-from pytest import ExitCode
 def test_placeholder():
     pass
 
