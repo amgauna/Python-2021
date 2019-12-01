@@ -17,7 +17,8 @@ else:
    price = 99.99
 
 while price > 4.74:
-      time.sleep(50 / 1000)
-      price= get_price()
+      from time import sleep
+           sleep(50/1000)
+           price= get_price()
       
 print("Buy!")
