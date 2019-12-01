@@ -16,7 +16,7 @@ from distutils.core import setup
 class RegisterNewInstructor(unittest.TestCase):
       
 setup(name='Distutils',
-      version='3.8',
+      version='3.x',
       description='Python Distribution Utilities',
       author='Greg Ward',
       author_email='gward@python.net',
