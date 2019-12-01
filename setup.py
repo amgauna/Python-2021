@@ -1,4 +1,3 @@
-pip install --upgrade requests
 pip install pip-upgrader
 pip install flask
 pip install flake8
