@@ -8,6 +8,6 @@ while guess != 5:
     else:
         if guess > 5:
            print("Too high")
-        else
+        else:
            print ("You low!")
 print ("Game over!")
