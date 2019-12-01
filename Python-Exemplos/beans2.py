@@ -1,7 +1,7 @@
 import urllib.request
 import time
 
-def get_price()
+def get_price():
 while price > 4.74:
       page = urllib.request.urlopen("http://www.beans-r-us.biz/prices.html")
       text = page.read().decode("utf8")
