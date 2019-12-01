@@ -3,7 +3,8 @@
 # https://www.python.org/downloads/
 #
 #
-# Comunidade Python Brazil = https://python.org.br/
+# Comunidade Python Brazil 
+# https://python.org.br/
 #
 #
 # Python Apostila Online 
