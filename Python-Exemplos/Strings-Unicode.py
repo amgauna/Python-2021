@@ -12,13 +12,15 @@
 
 # Criar strings Unicode em Python é tão simples quanto criar strings normais:
 
->>> u'Hello World !'
 u'Hello World !'
 
->>> # O pequeno "u" antes das aspas indica a criação de uma string Unicode . Se você desejar incluir caracteres especiais
->>> # na string, você pode fazê-lo através da codificação Python Unicode-Escape.
+u'Hello World !'
 
->>> u'Hello\u0020World !'
+# O pequeno "u" antes das aspas indica a criação de uma string Unicode . Se você desejar incluir caracteres especiais
+# na string, você pode fazê-lo através da codificação Python Unicode-Escape.
+
+u'Hello\u0020World !'
+
 u'Hello World !'
 
 # O código de escape \u0020 indica a inserção do caracter Unicode com valor ordinal 0x0020 (o espaço em branco) na
@@ -33,9 +35,10 @@ u'Hello World !'
 # para strings normais. Basta prefixar a string com 'ur' para utilizar a codificação Python Raw-Unicode-Escape. 
 # Só será aplicado a conversão \ uXXXX se houver um número ímpar de barras invertidas antes do escape 'u'.
 
->>> ur'Hello\u0020World !'
+ur'Hello\u0020World !'
 u'Hello World !'
->>> ur'Hello\\u0020World !'
+
+ur'Hello\\u0020World !'
 u'Hello\\\\u0020World !'
 
 # O modo cru (N.d.T: raw) é muito útil para evitar excesso de barras invertidas, por exemplo, em expressões regulares.
@@ -50,13 +53,17 @@ u'Hello\\\\u0020World !'
 # caracteres no intervalo de 0 a 127 mas rejeita qualquer outro com um erro. Quando uma string Unicode é impressa, escrita
 # em arquivo ou convertida por str(), a codificação padrão é utilizada.
 
->>> u"abc"
+u"abc"
+
 u'abc'
->>> str(u"abc")
+
+str(u"abc")
 'abc'
->>> u"äöü"
+
+u"äöü"
 u'\xe4\xf6\xfc'
->>> str(u"äöü")
+
+str(u"äöü")
 Traceback (most recent call last):
   File "<stdin>", line 1, in ?
 UnicodeEncodeError: 'ascii' codec can't encode characters in position
@@ -66,12 +73,12 @@ UnicodeEncodeError: 'ascii' codec can't encode characters in position
 # encode() de objetos Unicode passando como parâmetro o nome da codificação destino. É preferível utilizar nomes de
 # codificação em letras minúsculas.
 
->>> u"äöü".encode('utf-8')
+u"äöü".encode('utf-8')
 '\xc3\xa4\xc3\xb6\xc3\xbc'
 
 # Também pode ser utilizada a função unicode() para efetuar a converção de um string em outra codificação. Neste caso,
 # o primeiro parâmetro é a string a ser convertida e o segundo o nome da codificação almejada. O valor de retorno da 
 # função é a string na nova codificação.
 
->>> unicode('\xc3\xa4\xc3\xb6\xc3\xbc', 'utf-8')
+unicode('\xc3\xa4\xc3\xb6\xc3\xbc', 'utf-8')
 u'\xe4\xf6\xfc'
