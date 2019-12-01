@@ -9,7 +9,7 @@ def get_price():
       end_of_price = start_of_price + 4
       return float(text[start_of_price:end_of_price])
 price_now = input("Do you want to see the price now (y/n)? ")
-if price_now = "y":
+if price_now == "y":
    print(get_price())
 else
    price = 99.99
