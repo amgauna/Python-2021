@@ -11,7 +11,7 @@ def get_price():
 price_now = input("Do you want to see the price now (y/n)? ")
 if price_now == "y":
    print(get_price())
-else
+else:
    price = 99.99
    while price > 4.74:
    time.sleep(900)
