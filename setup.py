@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-import setuptools
+import os
 import sys
+import setuptools
 import time
 import pytest
 import unittest
-import os
 
 from setuptools import setup
 from pytest import ExitCode
