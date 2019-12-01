@@ -2,17 +2,12 @@
 # Além de números, Python também pode manipular strings, que podem ser expressas de diversas formas. 
 # Elas podem ser delimitadas pos aspas simples ou duplas:
 
->>> 'spam eggs'
 'spam eggs'
->>> 'doesn\'t'
+
 "doesn't"
->>> "doesn't"
-"doesn't"
->>> '"Yes," he said.'
+
 '"Yes," he said.'
->>> "\"Yes,\" he said."
-'"Yes," he said.'
->>> '"Isn\'t," she said.'
+
 '"Isn\'t," she said.'
 
 # Strings que contém mais de uma linha podem ser construídas de diversas maneiras. 
@@ -56,7 +51,7 @@ Usage: thingy [OPTIONS]
      -h                        Display this usage message
      -H hostname               Hostname to connect to
 """
->>> # produz a seguinte saída:
+# produz a seguinte saída:
 
 Usage: thingy [OPTIONS] 
      -h                        Display this usage message
@@ -70,20 +65,21 @@ Usage: thingy [OPTIONS]
 
 # Strings podem ser concatenadas (coladas) com o operador +, e repetidas com *:
 
->>> word = 'Help' + 'A'
->>> word
-'HelpA'
->>> '<' + word*5 + '>'
+word = 'Help' + 'A'
+word 'HelpA'
+'<' + word*5 + '>'
 '<HelpAHelpAHelpAHelpAHelpA>'
 
 # Duas strings literais justapostas são automaticamente concatenadas; a primeira linha do exemplo anterior poderia
 # ter sido escrita como "word = 'Help''A'"; isso funciona somente com strings literais, não com expressões arbitrárias:
 
->>> 'str' 'ing'                #  <-  This is ok
+'str' 'ing'                #  <-  This is ok
 'string'
->>> str.strip('str') + 'ing'   #  <-  This is ok
+
+str.strip('str') + 'ing'   #  <-  This is ok
 'string'
->>> str.strip('str') 'ing'     #  <-  This is invalid
+
+str.strip('str') 'ing'     #  <-  This is invalid
   File "<stdin>", line 1
     str.strip('str') 'ing'
                             ^
@@ -93,80 +89,88 @@ SyntaxError: invalid syntax
 # um caracter é simplesmente uma string unitária. Assim como na linguagem Icon, substrings podem ser especificadas através
 # da notação slice (N.d.T: fatiar): dois índices separados por dois pontos.
 
->>> word[4]
+word[4]
 'A'
->>> word[0:2]
+
+word[0:2]
 'He'
->>> word[2:4]
+
+word[2:4]
 'lp'
 
 # Índices de fatias slice seguem uma padronização útil; a omissão do primeiro índice equivale a zero, a omissão do segundo
 # índice equivale ao tamanho da string sendo fatiada.
 
->>> word[:2]    # Os dois primeiros caracteres
+word[:2]    # Os dois primeiros caracteres
 'He'
->>> word[2:]    # Tudo exceto os dois primeiros caracteres
+
+word[2:]    # Tudo exceto os dois primeiros caracteres
 'lpA'
 
 # Diferentemente de C, strings não podem ser alteradas em Python. Atribuir para uma posição (índice) dentro de uma string
 # resultará em erro:
 
->>> word[0] = 'x'
+word[0] = 'x'
 Traceback (most recent call last):
   File "<stdin>", line 1, in ?
 TypeError: object doesn't support item assignment
->>> word[:1] = 'Splat'
+    
+word[:1] = 'Splat'
 Traceback (most recent call last):
   File "<stdin>", line 1, in ?
 TypeError: object doesn't support slice assignment
 
 # Entretanto, criar uma nova string com o conteúdo combinado é fácil e eficiente:
 
->>> 'x' + word[1:]
+'x' + word[1:]
 'xelpA'
->>> 'Splat' + word[4]
+
+'Splat' + word[4]
 'SplatA'
 
 # Aqui está um invariante interessante relacionado a operações de slice: s[:i] + s[i:] equals s.
 
->>> word[:2] + word[2:]
+word[:2] + word[2:]
 'HelpA'
->>> word[:3] + word[3:]
+
+word[:3] + word[3:]
 'HelpA'
 
 # Índices de slice degenerados são tratados ``graciosamente'' (N.d.T: este termo indica robustez no tratamento de erros): 
 # um índice muito maior que o comprimento é trocado pelo comprimento, um limitante superior que seja menor que o limitante 
 # inferior produz uma string vazia como resultado.
 
->>> word[1:100]
+word[1:100]
 'elpA'
->>> word[10:]
+
+word[10:]
 ''
->>> word[2:1]
+
+word[2:1]
 ''
 # Índices podem ser números negativos, para iniciar a contagem a partir da direita ao invés da esquerda. 
 # Por exemplo:
 
->>> word[-1]     # O útlimo caracter
+word[-1]     # O útlimo caracter
 'A'
->>> word[-2]     # O penúltimo caracter
+word[-2]     # O penúltimo caracter
 'p'
->>> word[-2:]    # Os dois últimos caracteres 
+word[-2:]    # Os dois últimos caracteres 
 'pA'
->>> word[:-2]    # Tudo exceto os dois últimos caracteres
+word[:-2]    # Tudo exceto os dois últimos caracteres
 'Hel'
 
 # Observe que -0 é o mesmo que 0, logo neste caso não se conta a partir da direita!
 
->>> word[-0]     # ( -0 ==  0)
+word[-0]     # ( -0 ==  0)
 'H'
 
 # Intervalos fora dos limites da string são truncados, mas não tente isso em indexações com um único índice 
 # (que não seja um slice):
 
->>> word[-100:]
+word[-100:]
 'HelpA'
->>> word[-10]    # error
+word[-10]    # error
 Traceback (most recent call last):
   File "<stdin>", line 1
 IndexError: string index out of range
@@ -190,6 +194,6 @@ IndexError: string index out of range
 
 # A função interna (N.d.T: interna == built-in) len() devolve o comprimento de uma string:
 
->>> s = 'supercalifragilisticexpialidocious'
->>> len(s)
+s = 'supercalifragilisticexpialidocious'
+len(s)
 34
