@@ -34,6 +34,7 @@ setuptools.setup(
     python_requires='>=3.7',
 )
 
+from pytest import ExitCode
 def test_placeholder():
     pass
 
