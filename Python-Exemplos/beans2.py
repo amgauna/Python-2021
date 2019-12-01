@@ -7,7 +7,7 @@ def get_price():
     where = text.find('>$')
     start_of_price = where + 2
     end_of_price = start_of_price + 4
-return float(text[start_of_price:end_of_price])
+    price = float(text[start_of_price:end_of_price])
 
 price_now = input("Do you want to see the price now (y/n)? ")
 
@@ -18,6 +18,6 @@ else:
 
 while price > 4.74:
       time.sleep(.900)
-      price= get_price()
+      price = get_price()
       
 print("Buy!")
