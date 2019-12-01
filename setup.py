@@ -3,6 +3,7 @@
 import setuptools
 import time
 import pytest
+import unittest
 
 from pytest import ExitCode
 from selenium import webdriver
@@ -11,6 +12,8 @@ from locators import *
 from selenium.webdriver.common.by import By
 from distutils.core import setup
 
+class RegisterNewInstructor(unittest.TestCase):
+      
 setup(name='Distutils',
       version='3.8',
       description='Python Distribution Utilities',
