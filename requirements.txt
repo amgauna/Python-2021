@@ -1,7 +1,3 @@
-# write the file
-$ pip freeze > requirements.txt
-# show the file's contents
-$ cat requirements.txt
 appnope==0.1.0
 backcall==0.1.0
 beautifulsoup4==4.6.3
