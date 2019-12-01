@@ -1,4 +1,3 @@
-pip install requests
 pip install --upgrade requests
 pip install pip-upgrader
 pip install flask
