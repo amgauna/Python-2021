@@ -1,3 +1,4 @@
+$ pip install --upgrade requests
 $ pip wheel --global-option bdist_ext --global-option -DFOO wheel
 $ pip install --no-index --find-links=/tmp/wheelhouse SomePackage
 
