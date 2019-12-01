@@ -1,6 +1,6 @@
 print ("Welcome!")
 guess = 0
-while guess != 5;
+while guess != 5:
     g = input("Guess the number: ")
     guess = int(g)
     if guess == 5:
