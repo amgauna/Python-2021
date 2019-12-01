@@ -1,4 +1,4 @@
-$ pip-review auto
+$ pip -review auto
 $ make install-pip-requirements 
 $ pip install upgrade force-reinstall -r requirements.txt
 $ pip freeze > requirements.txt
