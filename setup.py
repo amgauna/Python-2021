@@ -34,6 +34,8 @@ setuptools.setup(
     python_requires='>=3.7',
 )
 
+def test_placeholder():
+    pass
 
 
 
