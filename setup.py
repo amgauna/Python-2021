@@ -1,9 +1,12 @@
-$ pip wheel --wheel-dir=/tmp/wheelhouse SomePackage
+$ pip wheel --global-option bdist_ext --global-option -DFOO wheel
 $ pip install --no-index --find-links=/tmp/wheelhouse SomePackage
+
 # write the file
 (shiny_new_env)$ pip freeze > requirements.txt
+
 # show the contents
 (shiny_new_env)$ cat requirements.txt
+
 certifi==2018.10.15
 chardet==3.0.4
 Click==7.0
