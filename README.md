@@ -7,6 +7,10 @@
 # https://python.org.br/
 #
 #
+# Google Groups - Python Brasil
+# https://groups.google.com/forum/#!forum/python-brasil
+#
+#
 # Python Apostila Online 
 # https://aprendendo-computacao-com-python.readthedocs.io/en/latest/index.html
 # 
@@ -17,5 +21,6 @@
 #
 # Tutorial Python
 # https://wiki.python.org.br/Tutorial_Python
+#
 
 
