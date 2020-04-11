@@ -34,5 +34,6 @@
 #
 # Python Tutorial = http://www.analyticsvidhya.com/blog/2016/01/python-tutorial-list-comprehension-examples/?utm_content=buffer3143f&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer  
 #
-
+# Introdução ao Python = https://panda.ime.usp.br/cc110/static/cc110/index.html
+#
 
