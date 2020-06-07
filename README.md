@@ -36,4 +36,7 @@
 #
 # Introdução ao Python = https://panda.ime.usp.br/cc110/static/cc110/index.html
 #
+# Python Data Science & Machine Learning = https://chrisalbon.com/
+#
 
+#
