@@ -38,5 +38,15 @@
 #
 # Python Data Science & Machine Learning = https://chrisalbon.com/
 #
-
+# http://do1.dr-chuck.com/pythonlearn/PT_br/pythonlearn.pdf 
+#
+# https://www.caelum.com.br/apostila/apostila-python-orientacao-a-objetos.pdf
+#
+# http://antigo.scl.ifsp.edu.br/portal/arquivos/2016.05.04_Apostila_Python_-_PET_ADS_S%C3%A3o_Carlos.pdf
+#
+# https://www.ufsm.br/laboratorios/lumac/wp-content/uploads/sites/679/2019/08/Apostila_Python_v_1.pdf
+#
+# https://buildmedia.readthedocs.org/media/pdf/curso-python/latest/curso-python.pdf
+#
+# http://www.facom.ufu.br/~william/Disciplinas%202019-1/BIOTCH-GBT017-IntoducaoInformatica/285173966-aprendendo-python-pdf.pdf
 #
