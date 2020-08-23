@@ -50,3 +50,6 @@
 #
 # http://www.facom.ufu.br/~william/Disciplinas%202019-1/BIOTCH-GBT017-IntoducaoInformatica/285173966-aprendendo-python-pdf.pdf
 #
+# PYTHON – Folha de Consulta = https://www.ime.usp.br/~vwsetzer/python-opers-funcoes.html
+
+#
