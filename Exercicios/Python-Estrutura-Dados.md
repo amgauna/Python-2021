@@ -5,8 +5,7 @@
 # Uma variável com diversas osições indexadas para manter os dados.
 #
 # Lista encadeada
-# Uma variável que cria uma cadeia de dados onde um item de dado aponta para outro item e dado, 
-que aponta ele próprio, para outro item de dados, e para outro, e para outro, e assim por adiante.
+# Uma variável que cria uma cadeia de dados onde um item de dado aponta para outro item e dado, que aponta ele próprio, para outro item de dados, e para outro, e para outro, e assim por adiante.
 # 
 # Fila
 # Uma vari´[avel que permite que os dados entrem em uma estremidade de uma coleção e saiam na outra, suportando o mecanismo primeiro a entrar, primeiro a sair.
