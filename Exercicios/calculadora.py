@@ -24,3 +24,7 @@ if operacao == "+":
    
    else:
       print("Ops! Operação inválida, tente novamente!")
+break
+
+s = n1 + n2
+print("A soma entre {n1} e {n2} é igual a {s}.".format(n1,n2,s))
