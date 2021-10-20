@@ -1,12 +1,12 @@
 ans=True
 while ans:
-    print ("
+    print ("""
     1.Add a Student \n
     2.Delete a Student \n
     3.Look Up Student Record \n
     4.Exit/Quit \n
-    ")
-    ans=input("What would you like to do?" 
+    """)
+    ans=input("What would you like to do? ") 
     if ans=="1": 
       print("\nStudent Added") 
     Elif ans=="2":
