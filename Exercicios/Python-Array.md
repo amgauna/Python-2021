@@ -1,7 +1,7 @@
 #
 # Python : Array[]
 # 
-# Estes são alguns métodoa que vem embutidos em cada array.
+# Estes são alguns métodos que vem embutidos em cada array.
 # 
 # count()
 # Informa quantas vezes um valor está no array.
