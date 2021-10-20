@@ -1,4 +1,5 @@
-# msg = uma string que contém um texto
+# msg = text = uma string que contém um texto
+
 # text.upper() = é um método que retorna o texto da string com letras maiúsculas
 # text.lower() = é um método que retorna o texto da string com letras minúsculas
 # text.endswitch("my world") = é um método que retorna se o conteúdo final é true ou false
