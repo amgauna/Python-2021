@@ -7,15 +7,16 @@
 def calculate_storage(filesize)
     block_size = 4096
 	
-	# Use floor division to calculate how many blocks are fully ocupied
-	float full_blocks = filesize//block_size
+    # Use floor division to calculate how many blocks are fully ocupied
+    float full_blocks = filesize//block_size
 	
-	If full_blocks > 1 && full_blocks <= 2): 
-	return 8192
-    else full blocks <= 1:
-	return 4096
+    If full_blocks > 1 && full_blocks <= 2): 
+       return 8192
+    else: 
+       full blocks <= 1:
+       return 4096
     
-	# Use the modulo operator to check whether there´s any remainder
+        # Use the modulo operator to check whether there´s any remainder
 	partial_block_remainder = full_block%2
 	
 	# Depending on whether there´s a remainder or not, return
@@ -25,9 +26,7 @@ def calculate_storage(filesize)
 	if patial_block_remainder > 0:
 	   return (full_blocks + 1)*block_zise
 	else
-	   return (block_size)
-	   
-	
+	   return (block_size)	
 	   
 return 2
 
