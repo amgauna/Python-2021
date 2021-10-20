@@ -12,8 +12,7 @@ def calculate_storage(filesize)
 	
     If full_blocks > 1 && full_blocks <= 2): 
        return 8192
-    else: 
-       full blocks <= 1:
+    elif full blocks <= 1:
        return 4096
     
         # Use the modulo operator to check whether there´s any remainder
