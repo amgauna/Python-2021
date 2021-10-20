@@ -1,3 +1,5 @@
+# calculadora aritmética
+
 print ("Digite a operação desejada de acordo com a explicação abaixo:")
 print ("Digite + para adição")
 print ("Digite - para subtração")
