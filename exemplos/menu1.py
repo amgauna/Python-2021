@@ -17,3 +17,4 @@ while ans:
       print("\n Goodbye") 
     Elif ans !="":
       print("\n Not Valid Choice Try again") 
+return(ans)
