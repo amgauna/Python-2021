@@ -31,6 +31,6 @@ else:
 	
     print("Sua função foi f(x) com intervalo de f(a)")
 
-    print("Intervalo é de (x) e raiz de (a)")
+    print("Intervalo é de (a) e raiz de (x1)")
  	
 		 
