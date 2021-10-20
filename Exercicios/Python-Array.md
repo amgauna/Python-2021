@@ -10,7 +10,7 @@
 # Adiciona uma lista de itens a um array.
 # 
 # index(0)
-# Procura um item e retorna seu valor de índice
+# Procura um item e retorna seu valor de índice.
 #
 # insert()
 # Adiciona um item a qualquer posição do índice.
