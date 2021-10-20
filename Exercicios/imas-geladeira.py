@@ -4,8 +4,11 @@ result_f = open("results.txt")
 
 for line in result_f:
   
-  if float (line) > hightest_score:
-    highest_score = float (line)
+  # o split corta uma linha em duas e cria as variáveis
+  (name.score) = line.split
+  
+  if float (score) > hightest_score:
+    highest_score = float (score)
   
 result_f.close()
 
