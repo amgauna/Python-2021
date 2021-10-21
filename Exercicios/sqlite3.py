@@ -29,7 +29,10 @@ for row in rows:
     
     print("ID is " + str(row['id']))
     print("Name is " + row['name'])
+    print("Country is " + row['country'])
+    print("Average is " + row['average'])
     print("Board-type is " + row['board])
+    print("Age is " + row['age'])
                                  
 cursor.close()
   
