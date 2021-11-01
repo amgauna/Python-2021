@@ -18,7 +18,7 @@ while running:
       running = false
     else:
       credit_card = input("credit card number: ")
-      save_transaction(prices[choice -1], credit_card, items[choise - 1])
+      save_transaction(prices[choice -1], credit_card, items[choice - 1])
       
       
       
