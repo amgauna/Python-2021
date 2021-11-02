@@ -1,13 +1,17 @@
 from tkinter import
+from sound_panel import *
 import pygame.mixer
 
 app=Tk()
 app.title("Heart First Mix")
 app.geometry("250x100+200+100)            
 sound_file = "50459_M_RED_Nephlimizer.wav")
+
 mixer = pygame.mixer
 mixer.init()
 
+def create_gui(app.mixer.sound_file):
+  
 def track_toggle():
   if track_playing.get() == 1:
     track.play(loops = -1)
@@ -41,6 +45,7 @@ def shutdown():
     app.destroy()
                              
  app.protocol("wm_delete_window", shutdown)
+                           
  app.mainloop()
                      
                              
