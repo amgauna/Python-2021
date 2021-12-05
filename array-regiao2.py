@@ -1,5 +1,4 @@
 import sys
-sys.getfilesystemencoding() returns 'UTF-8'
 sys.version_info
 sys.__stdin__
 
@@ -18,11 +17,11 @@ lista_array = ArrayType( ('CÓDIGO', 'INADIMPLÊNCIA', 'REGIÃO', 'LITROS/MÊS')
                         )
                  
 # criando os arrays
-cria_array = np.format(lista_array)
+np.cria_array = format(lista_array)
 
 # exiba as mensagens bem formatadas na tela
-for cria_array in sys.stdin:
-if 'Exit' == cria_array.rstrip():
+for np.cria_array in sys.stdin:
+if 'Exit' == np.cria_array.rstrip():
 break
           
-print(cria_array)
+print(np.cria_array)
