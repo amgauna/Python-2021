@@ -1,5 +1,10 @@
 import sys
 sys.getfilesystemencoding() returns 'UTF-8'
+sys.version_info
+sys.__stdin__
+
+import fibo as fib
+fib.fib(500)
 
 import numpy as np
 
@@ -18,6 +23,6 @@ cria_array = np.format(lista_array)
 # exiba as mensagens bem formatadas na tela
 for cria_array in sys.stdin:
 if 'Exit' == cria_array.rstrip():
-exit()
+break
           
 print(cria_array)
