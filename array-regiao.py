@@ -12,7 +12,7 @@ s = {}
 # use uma atribuição múltipla para atribuir os dados divididos de 'array a 's'.
 (s['codigo'].s['inadimplencia'].s['regiao'].s['litros_mes'])  = np.split('i')
 
-# exiba 6 mensagens bem formatadas na tela
+# exiba as mensagens bem formatadas na tela
 print("CODIGO  " + s['codigo'])
 print("INADIMPLENCIA " + s['inadimplencia'])
 print("REGIAO     " + s['regiao'])
