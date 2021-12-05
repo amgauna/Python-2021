@@ -22,3 +22,4 @@ litros_mes_array = np.array(litros_mes)
 
 # exiba as mensagens bem formatadas na tela
 print({titulo_array}, {codigo_array}, {inadimplencia_array}, {regiao_array}, {lista_regiao_array}, {litros_mes_array})
+
