@@ -15,8 +15,4 @@ regiao_array = np.array(regiao)
 litros_mes_array = np.array(litros_mes)
 
 # exiba as mensagens bem formatadas na tela
-print(titulo_array)
-print(codigo_array)
-print(inadimplencia_array)
-print(regiao_array)
-print(litros_mes_array)
+print({titulo_array}, {codigo_array}, {inadimplencia_array}, {regiao_array}, {litros_mes_array})
