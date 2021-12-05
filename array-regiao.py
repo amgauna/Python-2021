@@ -17,7 +17,7 @@ titulo_array = np.array(titulo)
 codigo_array = np.array(codigo)
 inadimplencia_array = np.array(inadimplencia)
 regiao_array = np.array(regiao)
-lista_regiao_array = np.array(regiao)
+lista_regiao_array = np.array(lista_regiao)
 litros_mes_array = np.array(litros_mes)
 
 # exiba as mensagens bem formatadas na tela
