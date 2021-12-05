@@ -14,8 +14,8 @@ lista_array = ([ ['CÓDIGO', 'INADIMPLÊNCIA', 'REGIÃO', 'LITROS/MÊS'],
 cria_array = np.array.format(lista_array)
 
 # exiba as mensagens bem formatadas na tela
-for line in sys.stdin:
-if 'Exit' == line.rstrip():
+for lista_array in sys.stdin:
+if 'Exit' == lista_array.rstrip():
 break
           
-print(line.cria_array)
+print(cria_array)
