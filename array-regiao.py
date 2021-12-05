@@ -1,7 +1,7 @@
 import numpy as np
 
 # criando as listas
-titulo = ['CÓDIGO', "INADIMPLÊNCIA', REGIÃO', 'LITROS/MÊS']
+titulo = ['CÓDIGO', 'INADIMPLÊNCIA', 'REGIÃO', 'LITROS/MÊS']
 codigo = [47798, 88333, 71928, 74830, 42536]
 inadimplencia = [1:'SIM', 0:'NAO'}
 regiao = [1:'regiao-centro', 2:'regiao_grande_ibis', 3:'regiao_grande_aribiri', 4:'regiao_grande_cobilandia', 5:'regiao_grande_jucu"]
