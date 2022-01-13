@@ -1,16 +1,27 @@
 # nota
 
-nota1 = float(input("digite sua primeira nota: "))
+a = float(input("digite sua primeira nota: "))
+nota1 = int(a)
+print ("/n")
 
-nota2 = float(input("digite sua segunda nota: "))
+b = float(input("digite sua segunda nota: "))
+nota2 = int(b)
+print ("/n")
 
+media = (nota1 + nota2)/2
+
+print("Sua média é ", media, "/n")
+      
 if (nota1 + nota2) / 2 >= 7.0:
-   print("Você foi APROVADO!")
+   print("Com essa nota ",media,", você foi APROVADO!")
+   print ("/n")
    
 elif (nota1 + nota2) /2 >= 5 && (nota1 + nota2) / 2 <= 6.9:
-    print("Você está de RECUPERAÇÃO!")  
+    print("Com essa nota ",media,", você está em RECUPERAÇÃO!") 
+    print ("/n")
 
 elif (nota1 + nota2) / 2 < 5.0:
-    print("Você foi REPROVADO!")
-
+    print("Com essa nota ",media, ", você foi REPROVADO!")
+    print ("/n")
+   
 print("Continue estudando!")
