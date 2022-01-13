@@ -1,11 +1,11 @@
 # nota
 
-a = float(input("digite sua primeira nota: "))
-nota1 = int(a)
+a = input("digite sua primeira nota: ")
+nota1 = float(a)
 print ("/n")
 
-b = float(input("digite sua segunda nota: "))
-nota2 = int(b)
+b = input("digite sua segunda nota: ")
+nota2 = float(b)
 print ("/n")
 
 media = (nota1 + nota2)/2
