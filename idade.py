@@ -1,6 +1,14 @@
 
 # idade
 
+from datetime import date
+data-atual = date.today().year
+nas = int(input("Ano de nascimento: "))
+sexo = str(input("Qual é o seu sexo? [M] / [F]: " ))
+idade = atual - nas
+print(f"Quem nasceu em {nas} tem {idade} anos em {atual}.¨))
+      
+      
 nome = input("Digite seu nome: ")
 
 idade = input("Digite sua idade: ")
