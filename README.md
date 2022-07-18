@@ -2,6 +2,8 @@
 # 
 # Python
 #
+<a href="python-lybraries-frameworks.jpg></a>
+
 # Python 3.8.0 Download = https://www.python.org/downloads/
 #
 # Python Brazil - Grupo de Usuários = https://python.org.br/
