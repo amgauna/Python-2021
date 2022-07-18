@@ -1,25 +1,30 @@
-
-# 
 # Python
-#
+
+# Python Libraries & Frameworks (1)
 <img src="python-lybraries-frameworks.jpg">
-#
+
+# Python Libraries & Frameworks (2)
 <img src="python-lybraries-frameworks2.jpg">
-#
-# Python 3.8.0 Download = https://www.python.org/downloads/
-#
-# Python Brazil - Grupo de Usuários = https://python.org.br/
-#
-# Google Groups - Python Brasil = https://groups.google.com/forum/#!forum/python-brasil
-#
-# IDEs para Python = https://wiki.python.org.br/IdesPython
-#
-# Python Para Web = https://wiki.python.org.br/PythonParaWeb
-#
-# Python para quem está começando = https://python.org.br/introducao/
-# 
-# Aprenda a programar Python = https://wiki.python.org.br/AprendaProgramar
-#
+
+# Python 3.8.0 
+Download = https://www.python.org/downloads/
+
+# Python Brazil 
+Grupo de Usuários = https://python.org.br/
+
+# Python Brasil 
+Google Groups = https://groups.google.com/forum/#!forum/python-brasil
+
+# IDEs para Python 
+IDEs Download = = https://wiki.python.org.br/IdesPython
+
+# Python Para Web 
+Artigo Python para Web = https://wiki.python.org.br/PythonParaWeb
+
+# Python para quem está começando 
+* Introdução ao Python = https://python.org.br/introducao/
+* Aprenda a programar Python = https://wiki.python.org.br/AprendaProgramar
+
 # Eventos Python Brasil = https://python.org.br/eventos/
 #
 # Python Apostila Online = https://aprendendo-computacao-com-python.readthedocs.io/en/latest/index.html
