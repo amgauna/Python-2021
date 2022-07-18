@@ -2,8 +2,10 @@
 # 
 # Python
 #
-<a href="python-lybraries-frameworks.jpg></a>
-
+<img src="python-lybraries-frameworks.jpg">
+#
+<img src="python-lybraries-frameworks2.jpg">
+#
 # Python 3.8.0 Download = https://www.python.org/downloads/
 #
 # Python Brazil - Grupo de Usuários = https://python.org.br/
