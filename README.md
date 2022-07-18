@@ -2,11 +2,11 @@
 
 ## Python Libraries & Frameworks (1)
 
-<img src="/Python-Lybraries-Frameworks.jpg">
+<img src="python-libraries-frameworks.jpg">
 
 ## Python Libraries & Frameworks (2)
 
-<img src="/Python-Lybraries-Frameworks2.jpg">
+<img src="python-libraries-frameworks2.jpg">
 
 
 ## Download do Python 3.8.0 
