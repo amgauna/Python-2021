@@ -20,8 +20,19 @@
 
 
 ## IDEs Python para Download 
-* https://wiki.python.org.br/IdesPython
-
+* Relação de IDEs Python = https://wiki.python.org.br/IdesPython
+** Komodo IDE = https://www.activestate.com/products/komodo-ide/
+** Apache NetBeans = https://netbeans.apache.org/features/python/index.html
+** Ninja IDE = https://ninja-ide.org/
+** Spyder Lib = https://code.google.com/archive/p/spyderlib/
+** Eclipse IDE Download = https://www.eclipse.org/downloads/
+** PyDev Development = http://pydev.sourceforge.net/index.html
+** Anaconda Download = https://www.anaconda.com/
+** KDevelop across-platform IDE = https://www.kdevelop.org/
+** PyPE (Python Programmers Editor) = https://sourceforge.net/projects/pype/
+** Wyng Python IDE Download = http://www.wingware.com/
+** JetBrains PyCharm Python IDE = IDE https://www.jetbrains.com/pycharm/
+** Iron Python IDE Download = https://ironpython.net/
 
 ## Python para quem está começando 
 * Introdução ao Python = https://python.org.br/introducao/
