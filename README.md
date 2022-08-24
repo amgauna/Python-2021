@@ -59,6 +59,7 @@
 * Apostila de Python = https://www.ufsm.br/laboratorios/lumac/wp-content/uploads/sites/679/2019/08/Apostila_Python_v_1.pdf
 * Curso Introdutório de Python = https://buildmedia.readthedocs.org/media/pdf/curso-python/latest/curso-python.pdf
 * Aprendendo Python = http://www.facom.ufu.br/~william/Disciplinas%202019-1/BIOTCH-GBT017-IntoducaoInformatica/285173966-aprendendo-python-pdf.pdf
+* Pense em Python = https://penseallen.github.io/PensePython2e/
 
 
 
