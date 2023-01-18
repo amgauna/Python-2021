@@ -49,6 +49,7 @@
 * Introdução ao Python = https://panda.ime.usp.br/cc110/static/cc110/index.html
 * Python Data Science & Machine Learning = https://chrisalbon.com/
 * Python Folha de Consulta = https://www.ime.usp.br/~vwsetzer/python-opers-funcoes.html
+* 365 Days Python Challenge (Youtube) https://www.youtube.com/playlist?list=PLeLGx0BaYD6Zr_3ReRhyZHLoO35uEVmcJ= 
 
 
 ## Python Livros PDF
